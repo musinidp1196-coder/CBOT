@@ -1,12 +1,12 @@
 
 import React, { useState, useEffect } from 'react';
 import { AppView, ExamPattern, TestAttempt, Lobby, CrewMember, SubjectBook } from './types';
-import Navigation from './components/Navigation';
-import Home from './components/Home';
-import Admin from './components/Admin';
-import Results from './components/Results';
-import TestEngine from './components/TestEngine';
-import PatternCreator from './components/PatternCreator';
+//import Navigation from './components/Navigation';
+// import Home from './components/Home';
+// import Admin from './components/Admin';
+// import Results from './components/Results';
+// import TestEngine from './components/TestEngine';
+// import PatternCreator from './components/PatternCreator';
 
 const App: React.FC = () => {
   const [view, setView] = useState<AppView>('home');

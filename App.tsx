@@ -7,7 +7,7 @@ const App: React.FC = () => {
       maxWidth: '1200px',
       margin: '0 auto',
       fontFamily: 'Arial, sans-serif',
-      backgroundColor: '#f5f5f5',
+      backgroundColor: '#0066cc',
       minHeight: '100vh'
     }}>
       <h1 style={{
